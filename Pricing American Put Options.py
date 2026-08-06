@@ -1,5 +1,5 @@
 
-                    ##### Assignment 5 - Monte Carlo for American Options #####
+                    ##### Pricing American Put Options: CRR Trees and Longstaff–Schwartz Monte Carlo #####
 
 import yfinance as yf
 import matplotlib.pyplot as plt
