@@ -31,9 +31,9 @@ The numerical sensitivity analysis found:
 ## Repository structure
 
 ```text
-src/american_option_pricing.py  # Original project script; uploaded separately
-report.pdf                      # Project report; uploaded separately
-requirements.txt                # Dependencies
+american_option_pricing.py  # Project implementation
+report.pdf                  # Project report
+requirements.txt            # Dependencies
 ```
 
 ## Getting started
@@ -42,7 +42,7 @@ requirements.txt                # Dependencies
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
-python src/american_option_pricing.py
+python american_option_pricing.py
 ```
 
 Because the script retrieves live data, the selected expiry, option sample, prices, and resulting metrics may change between runs.
